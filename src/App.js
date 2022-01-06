@@ -6,27 +6,22 @@ function App() {
     {
       id: 1,
       title: 'Terminator 1',
-      runtime: 60
     },
     {
       id: 2,
       title: 'Terminator 2',
-      runtime: 70
     },
     {
       id: 3,
       title: 'Terminator 3',
-      runtime: 80
     },
     {
       id: 4,
       title: 'Terminator 4',
-      runtime: 90
     },
     {
       id: 5,
       title: 'Terminator 5',
-      runtime: 100
     },
   ];
 
@@ -34,9 +29,6 @@ function App() {
     <tr key={contentItem.id}>
       <td>
         {contentItem.title}
-      </td>
-      <td>
-        {contentItem.runtime}
       </td>
     </tr>
   );
@@ -48,9 +40,6 @@ function App() {
         <tr>
           <th className="table-heading-title">
             Title
-          </th>
-          <th>
-            Runtime (mins)
           </th>
         </tr>
         </thead>
